@@ -72,7 +72,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3b5ca5;
+    background-color: #a3ce3e;
     color: #fff;
     font: var (--font-action);
     opacity: 0;
@@ -81,7 +81,7 @@ html{
 .hamburguer span::before{
     content: "";
     position: absolute;
-    border-right: .5rem solid #3b5ca5;
+    border-right: .5rem solid #a3ce3e;
     border-top: .5rem solid transparent;
     border-left: .5rem solid transparent;
     border-bottom: .5rem solid transparent;
@@ -208,7 +208,7 @@ header{
 }
 
 .menu-link:hover{
-    color: #3b5ca5;
+    color: #a3ce3e;
 }
 
 .social-media{    
@@ -220,7 +220,7 @@ header{
 }
 
 .social-media i{
-    background-color: #3b5ca5;
+    background-color: #065717b7;
     color: rgba(255,255,255,1);
     height: 2.5rem;
     width: 2.5rem;
@@ -233,7 +233,7 @@ header{
 }
 
 .social-media i:hover{
-    background-color: #2a0845;
+    background-color: #03a799;
 }
 
 .conhecimentos{
@@ -327,9 +327,9 @@ header{
  
 
   .btn{
-    background: #373B44;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #799F0C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACBB78, #799F0C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACBB78, #799F0C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: var(--font-action);
     font-size: 1rem;
     color: #eee;
@@ -366,14 +366,14 @@ header{
   }
   
   .contato-left {
-    width: 35%;
-    background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
-      url(imagens/contato.jpg);
+    width: 40%;
+    background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.1)),
+      url(./imagens/fe3.jfif);
     background-size: cover;
   }
 
   .contato-right{
-      width: 65%;
+      width: 60%;
       background-color: #eee;
       padding: 1rem 3rem 3rem 3rem;
   }
@@ -478,9 +478,9 @@ header{
     bottom: 3rem;
     width: 3rem;
     height: 3rem;
-    background: #373B44;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #799F0C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACBB78, #799F0C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACBB78, #799F0C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     justify-content: center;
     align-items: center;

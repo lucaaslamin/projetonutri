@@ -72,7 +72,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #a3ce3e;
+    background-color: #55b1ee;
     color: #fff;
     font: var (--font-action);
     opacity: 0;
@@ -81,7 +81,7 @@ html{
 .hamburguer span::before{
     content: "";
     position: absolute;
-    border-right: .5rem solid #a3ce3e;
+    border-right: .5rem solid #55b1ee;
     border-top: .5rem solid transparent;
     border-left: .5rem solid transparent;
     border-bottom: .5rem solid transparent;
@@ -104,15 +104,15 @@ header{
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.9);
 }
 
 .img-wrapper img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.5;
-    animation: zoom 15s;
+    opacity: 1;
+    animation: zoom 12s;
 }
 
 @keyframes zoom {
@@ -127,19 +127,24 @@ header{
 .banner{
     position: absolute;
     top: 30%;
-    left: 15%;
+    left: 30%;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.9); 
+    opacity: 1; 
+    background-color: rgba(83, 82, 82, 0.678);
 }
 
 .banner h1{     
-    color: #fff;
-    font-size: 3.5rem;
+    color: rgb(236, 222, 222);
+    font-size: 4rem;
     font-family: var(--font-primary);
-    font-weight: 200;
-    text-shadow: 0.3rem 0.4rem 2px rgba(0,0,0,0.5);
+    font-weight: 500;
+    text-shadow: 0.3rem 0.4rem 2px rgba(0,0,0,0.2);
     line-height: 3.5rem;
+    margin-top: 0.5rem;
     margin-bottom: 2rem;
     opacity: 0;
     animation: moveBanner 1s 0.5s forwards;
+    margin-left: 18%;
 }
 
 @keyframes moveBanner {
@@ -154,10 +159,10 @@ header{
 
 
 .banner p{
-    font-family: var(--font-secunary);
-    color: #fff;
-    font-size: 2.5rem;
-    text-shadow: 0.2rem 0.2rem rgba(0,0,0,);
+    font-family: var(--font-primary);
+    color: rgb(206, 197, 197);
+    font-size: 3.2rem;    
+    text-shadow: 0.2rem 0.2rem rgba(0,0,0,0.2);
     margin-bottom: 2rem; 
     opacity: 0;  
     animation: moveBanner 1s 0.7s forwards; 
@@ -171,6 +176,7 @@ header{
     margin-bottom: 2rem; 
     opacity: 0;  
     animation: moveBanner 1s 1s forwards;
+    margin-left: 30%;
 }
 
 .sidebar{
@@ -208,7 +214,7 @@ header{
 }
 
 .menu-link:hover{
-    color: #a3ce3e;
+    color: #49a2f5;
 }
 
 .social-media{    
@@ -220,7 +226,7 @@ header{
 }
 
 .social-media i{
-    background-color: #065717b7;
+    background-color: #141352b7;
     color: rgba(255,255,255,1);
     height: 2.5rem;
     width: 2.5rem;
@@ -233,7 +239,7 @@ header{
 }
 
 .social-media i:hover{
-    background-color: #03a799;
+    background-color: #056475;
 }
 
 .conhecimentos{
@@ -288,7 +294,7 @@ header{
     font-family: var(--font-primary);
     font-size: 3rem;
     color: #4b4b4b;
-    border-bottom: solid 3px #3f7bb3;
+    border-bottom: solid 3px #65aabe;
     margin-bottom: 1.5rem;
   }
 
@@ -327,9 +333,9 @@ header{
  
 
   .btn{
-    background: #799F0C;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ACBB78, #799F0C);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ACBB78, #799F0C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: var(--font-action);
     font-size: 1rem;
     color: #eee;
@@ -352,7 +358,7 @@ header{
   .sessao-contato {
     width: 100%;
     height: 100vh;
-    background-color: #272727;
+    background: url(./imagens/cont.gif);      
     display: flex;
     align-items: center;
     justify-content: center;
@@ -368,7 +374,7 @@ header{
   .contato-left {
     width: 40%;
     background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.1)),
-      url(./imagens/fe3.jfif);
+    url(./imagens/fe3.jfif);
     background-size: cover;
   }
 
@@ -478,9 +484,9 @@ header{
     bottom: 3rem;
     width: 3rem;
     height: 3rem;
-    background: #799F0C;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ACBB78, #799F0C);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ACBB78, #799F0C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     justify-content: center;
     align-items: center;

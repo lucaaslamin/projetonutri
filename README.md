@@ -1,6 +1,6 @@
 # Projeto Fer Nutri
 
-Projeto do site da Nutriocista Fernanda Silveira
+Projeto do site Landing page
 
 ## Tarefas
 
